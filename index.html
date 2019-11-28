@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" /><!--мета тег отвечающий за область просмотра :)-->
+	<title>Kidney-example</title>
+  <link href="https://fonts.googleapis.com/css?family=Rubik:400,500&display=swap&subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.css">
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+  <header class="headers">
+    <div class="container">
+    		<div class="intro"> <!--ЛОГОТИП-->
+    			<img class="spit" src="img/kid.png" alt="key">
+    			<img  class="sput" src="img/ney.png" alt="ney">
+    			<img  class="spof" src="img/hh.png" alt="т">
+    			<img  class="ddd" src="img/dd.png" alt="д">
+    			<img  class="eee" src="img/ee.png" alt="е">
+    			<img  class="ttt" src="img/tt.png" alt="т">
+    			<img  class="scs" src="img/cc.png" alt="с">
+    			<img  class="kkk" src="img/kk.png" alt="к">
+    			<img  class="ask" src="img/aa.png" alt="a">
+    			<img  class="zer" src="img/zz.png" alt="я">
+    				
+          <img  class="kli" src="img/kk.png" alt="к">
+    			<img  class="lin" src="img/ll.png" alt="л">
+    			<img  class="ini" src="img/ii.png" alt="и">
+    			<img  class="nik" src="img/nn.png" alt="н">
+    			<img  class="ika" src="img/ii.png" alt="и">
+    			<img  class="kaa" src="img/kk.png" alt="к">
+    			<img  class="akl" src="img/aa.png" alt="a">
+        </div>
+        <nav class="menu" > <!--МЕНЮ-->
+    			<a class="services" href="#">Услуги</a>
+    			<a class="csh" href="#">Специалисты</a>
+    			<a class="otzv" href="#">Отзывы</a>
+    			<a class="news" href="#">Новости</a>
+    			<a class="contacts" href="#">Контакты</a>
+
+    			<svg class="pictos" width="24" height="24"  viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0)">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.23079 23.114C5.5669 19.0682 2.68809 11.898 4.12869 6.46406C5.56928 1.03008 9.83104 -0.25584 12.8323 0.0394845C15.8335 0.334809 20.6874 2.46894 20.9875 7.48946C21.2876 12.51 16.1235 20.945 12.8323 23.114C12.127 23.5789 11.3317 24 10.7314 24C10.1312 24 9.83104 23.7047 9.23079 23.114ZM12.6319 12.3871C15.1875 12.3871 16.2955 11.6502 16.2955 8.66933C16.2955 6.52916 14.858 4.64516 11.6635 4.64516C9.36999 4.64516 7.67045 5.77181 7.67045 8.34795C7.67045 10.9241 9.91664 12.3871 12.6319 12.3871Z" fill="#E50046"/> </g>
+            <defs>
+              <clipPath id="clip0">
+                <rect width="24" height="24" fill="white"/>
+              </clipPath>
+            </defs> 
+          </svg>
+          <a href="#" class="adress"> г. Махачкала, Малыгина 7 </a> 
+        </nav>
+        <a href="#">
+            <svg class="phont_1" width="203" height="66" viewBox="0 0 203 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g filter="url(#filter0_d)">
+                  <rect x="6" y="3" width="191" height="54" rx="27" fill="#E50046"/>
+              </g>
+              <defs>
+              <filter id="filter0_d" x="0" y="0" width="203" height="66" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+              <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+              <feOffset dy="3"/>
+              <feGaussianBlur stdDeviation="3"/>
+              <feColorMatrix type="matrix" values="0 0 0 0 0.898039 0 0 0 0 0 0 0 0 0 0.27451 0 0 0 0.24 0"/>
+              <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+              <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+              </filter>
+              </defs>    </svg>
+            <svg class="phone_1" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M9.51542 23.0618C10.4887 23.5285 11.7707 23.7052 12.8498 23.6878C14.0407 23.679 14.8475 23.5943 15.9674 23.1888C17.5538 22.6238 18.8464 21.8795 18.7469 20.6134C18.6473 19.3472 18.246 17.2228 16.875 16.1741C16.6808 16.0141 16.4541 15.8983 16.2107 15.8347C15.9673 15.7712 15.7129 15.7615 15.4654 15.8063C14.8316 15.9282 14.1337 16.165 13.5 16.5491C12.75 17.0037 11.2895 16.735 10.5 16.1741C9.375 15.375 8.64117 11.3118 9.23225 8.625C9.47973 7.5 10.9695 7.78484 12.3751 7.62021L12.7407 7.58363C13.1544 7.54071 13.5476 7.38173 13.875 7.125C14.2024 6.86827 14.4506 6.52423 14.5911 6.13251C15.2817 4.39483 14.6801 2.23549 13.5 0.812827C12.5616 -0.315145 10.8166 -0.0766631 9.23225 0.380623C8.02893 0.723464 6.91357 1.32168 5.96206 2.13457C4.8896 3.07962 4.23556 4.24011 4.06698 5.49003C3.54497 9.45317 3.16107 16.2779 7.2417 21.3731C7.90427 22.2255 8.54216 22.5952 9.51542 23.0618Z" fill="white"/>
+            </svg>
+            <p class="mobile">93-77-27</p> 
+        </a>
+    </div>
+  </header>
+  <div>
+    <h1 class="yzi">Мы делаем УЗИ</h1>
+    <p class="entru_1"> В лабораторных отделениях Kidney проводят узи детям с первых дней жизни</p>
+    <a href="#"> <img class="Backgrounds" src="img/background.png" alt="nons">
+    <p class="zapisi">Записаться на прием</p>  </a>
+  </div>
+	  <img class="spit_3" src="img/shape.png" alt="ninp">
+    <img class="spit_1" src="img/decorations.png" alt="nins">
+    <img class="spit_2" src="img/illustration.png" alt="nens">
+    <hr class="line">
+  <div class="heads">
+    <h2 class="yslg">Наши услуги</h2> 
+     <a href="#" class="button_3">
+        <img class="but_3" src = "img/bukip.png" alt = "up">
+          <p class="but_4">Все услуги</p>
+           <svg class="but_5" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.1836 6.13841C12.5556 5.73161 13.1586 5.73161 13.5305 6.13841L16.3876 9.26341C16.7596 9.67021 16.7596 10.3298 16.3876 10.7365L13.5305 13.8615C13.1586 14.2683 12.5556 14.2683 12.1836 13.8615C11.8117 13.4548 11.8117 12.7952 12.1836 12.3884L13.415 11.0416H4.28563C3.75965 11.0416 3.33325 10.5753 3.33325 9.99998C3.33325 9.42468 3.75965 8.95831 4.28563 8.95831H13.415L12.1836 7.61155C11.8117 7.20475 11.8117 6.54521 12.1836 6.13841Z" fill="white"/>
+           </svg>
+     </a>
+  </div> 
+  <div class="line_1"> <!--Желтая полоса-->
+        <svg width="150" height="11" viewBox="0 0 150 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M149.999 2.93726C150.034 4.59375 148.719 5.9647 147.063 5.99936C142.504 6.09474 135.555 6.74824 127.064 7.54668C124.078 7.82747 120.901 8.12619 117.571 8.42487C104.884 9.56267 90.1707 10.676 75.9857 10.676C69.5314 10.676 63.462 10.3723 57.1272 10.0553C42.9461 9.34574 27.4351 8.56959 3.29872 10.9851C1.6501 11.1501 0.179882 9.94737 0.0148919 8.29875C-0.150098 6.65014 1.05262 5.17991 2.70124 5.01493C27 2.58317 43.546 3.36262 57.8945 4.07593C64.1094 4.38488 69.9659 4.67603 75.9857 4.67603C89.8919 4.67603 104.387 3.58317 117.035 2.44885C120.229 2.16242 123.319 1.87174 126.256 1.59536C134.849 0.787063 142.141 0.101016 146.937 0.000669749C148.594 -0.033988 149.965 1.28077 149.999 2.93726Z" fill="#FFE600"/>
+        </svg>
+  </div>
+  <div class="service_1">
+       <div class="item_1"> <!--УЗИ-->
+         <img class="item_12" src="img/apparat.png" alt="apparat">
+         <p class="item_13">УЗИ</p>
+          <nav class="list_2" >
+           <a  class="list_21" href="#">УЗИ гениталий</a>
+           <a class="list_22" href="#">УЗИ молочной железы</a>
+           <a class="list_23" href="#">УЗИ печени + желчного пузыря</a>
+           <a class="list_24" href="#">УЗИ почки + мочевого пузыря</a>
+           <a class="list_25" href="#">УЗИ поджелудочной железы</a> </nav>
+         <div class="button_4">
+           <a class="button_41" href="#">Все процедуры  <img src="img/line2.png" alt="line"> </a>
+             <a class="button_42" href="#"> <svg  width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M13.35 7.16475C13.5603 6.94508 13.9012 6.94508 14.1115 7.16475L17.3423 10.5398C17.5526 10.7594 17.5526 11.1156 17.3423 11.3352L14.1115 14.7102C13.9012 14.9299 13.5603 14.9299 13.35 14.7102C13.1397 14.4906 13.1397 14.1344 13.35 13.9148L15.6616 11.5H4.03846C3.74108 11.5 3.5 11.2482 3.5 10.9375C3.5 10.6268 3.74108 10.375 4.03846 10.375H15.6616L13.35 7.96025C13.1397 7.74058 13.1397 7.38442 13.35 7.16475Z" fill="#E50046"/>   </svg>  </a>   </div>  </div>
+       <div class="item_2"> <!--Хирургия-->
+          <img class="item_12" src="img/tools.png" alt="instrum">
+         <p class="item_13">Хирургия</p>
+          <nav class="list_2" >
+           <a  class="list_21" href="#">Обрезание</a>
+           <a class="list_22" href="#">Вскрытие фурункул</a>
+           <a class="list_23" href="#">Снятие швов</a>
+           <a class="list_24" href="#">Перевязка гнойной раны</a>
+           <a class="list_25" href="#">Перевязка чистой раны</a> </nav>
+         <div class="button_4">
+           <a class="button_41" href="#">Все процедуры  <img src="img/line2.png" alt="line"> </a>
+             <a class="button_42" href="#"> <svg  width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M13.35 7.16475C13.5603 6.94508 13.9012 6.94508 14.1115 7.16475L17.3423 10.5398C17.5526 10.7594 17.5526 11.1156 17.3423 11.3352L14.1115 14.7102C13.9012 14.9299 13.5603 14.9299 13.35 14.7102C13.1397 14.4906 13.1397 14.1344 13.35 13.9148L15.6616 11.5H4.03846C3.74108 11.5 3.5 11.2482 3.5 10.9375C3.5 10.6268 3.74108 10.375 4.03846 10.375H15.6616L13.35 7.96025C13.1397 7.74058 13.1397 7.38442 13.35 7.16475Z" fill="#E50046"/>   </svg>  </a>  </div>    </div>
+       <div class="item_3"> <!--Челюстно-лицевая-->
+         <img class="item_12" src="img/mask.png" alt="mask">
+         <p class="item_33"> Челюстно-лицевая хирургия</p>
+          <nav class="list_3" >
+           <a class="list_31" href="#">Пластика короткой уздечки с ушиванием</a>
+           <a class="list_32"  href="#">Рассечение короткой уздечки</a>
+           <a class="list_33" href="#">Удаление бородавок (моллюсков)</a>
+           <a class="list_24" href="#">Лечение гемангиом</a>
+           <a class="list_25" href="#">Укол дипроспан</a> </nav>
+         <div class="button_4">
+           <a class="button_41" href="#">Все процедуры  <img src="img/line2.png" alt="line"> </a>
+             <a class="button_42" href="#"> <svg  width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M13.35 7.16475C13.5603 6.94508 13.9012 6.94508 14.1115 7.16475L17.3423 10.5398C17.5526 10.7594 17.5526 11.1156 17.3423 11.3352L14.1115 14.7102C13.9012 14.9299 13.5603 14.9299 13.35 14.7102C13.1397 14.4906 13.1397 14.1344 13.35 13.9148L15.6616 11.5H4.03846C3.74108 11.5 3.5 11.2482 3.5 10.9375C3.5 10.6268 3.74108 10.375 4.03846 10.375H15.6616L13.35 7.96025C13.1397 7.74058 13.1397 7.38442 13.35 7.16475Z" fill="#E50046"/>   </svg>  </a>          </div> </div>
+       <div class="item_4"> <!--ЛОР-->
+         <img class="item_12" src="img/reflector.png" alt="reflector">
+         <p class="item_13">ЛОР</p>
+          <nav class="list_3" >
+           <a  class="list_31" href="#">Перемещение (кукушка)</a>
+           <a class="list_32" href="#">Промывание лакун миндалин (шприцом)</a>
+           <a class="list_33" href="#">Ингаляция</a>
+           <a class="list_24" href="#">Удаление инародных тел</a>
+           <a class="list_25" href="#">Вскрытие абцесса</a> </nav>
+         <div class="button_4">
+           <a class="button_41" href="#">Все процедуры  <img src="img/line2.png" alt="line"> </a>
+             <a class="button_42" href="#"> <svg  width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M13.35 7.16475C13.5603 6.94508 13.9012 6.94508 14.1115 7.16475L17.3423 10.5398C17.5526 10.7594 17.5526 11.1156 17.3423 11.3352L14.1115 14.7102C13.9012 14.9299 13.5603 14.9299 13.35 14.7102C13.1397 14.4906 13.1397 14.1344 13.35 13.9148L15.6616 11.5H4.03846C3.74108 11.5 3.5 11.2482 3.5 10.9375C3.5 10.6268 3.74108 10.375 4.03846 10.375H15.6616L13.35 7.96025C13.1397 7.74058 13.1397 7.38442 13.35 7.16475Z" fill="#E50046"/>   </svg>  </a> </div>
+            </div>
+       <div class="item_5"> <!--Функц-я диагностика-->
+         <img class="item_12" src="img/data.png" alt="data">
+         <p class="item_33"> Функциональная диагностика</p>
+          <nav class="list_3" >
+           <a  class="list_21" href="#">Педиатр</a>
+           <a class="list_22" href="#">Уролог / хирург</a>
+           <a class="list_23" href="#">Дерматовенеролог</a>
+           <a class="list_24" href="#">Челюстно-лицевой хирург</a>
+           <a class="list_25" href="#">Ортопед</a> </nav>
+         <div class="button_4">
+           <a class="button_41" href="#">Все процедуры  <img src="img/line2.png" alt="line"> </a>
+             <a class="button_42" href="#"> <svg  width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M13.35 7.16475C13.5603 6.94508 13.9012 6.94508 14.1115 7.16475L17.3423 10.5398C17.5526 10.7594 17.5526 11.1156 17.3423 11.3352L14.1115 14.7102C13.9012 14.9299 13.5603 14.9299 13.35 14.7102C13.1397 14.4906 13.1397 14.1344 13.35 13.9148L15.6616 11.5H4.03846C3.74108 11.5 3.5 11.2482 3.5 10.9375C3.5 10.6268 3.74108 10.375 4.03846 10.375H15.6616L13.35 7.96025C13.1397 7.74058 13.1397 7.38442 13.35 7.16475Z" fill="#E50046"/>   </svg>  </a></div>
+            </div>
+       <div class="item_6"> <!--Детская урология-->
+          <img class="item_12" src="img/kidney.png" alt="kidney">
+          <p class="item_33"> Детская урология</p>
+          <nav class="list_3" >
+           <a  class="list_21" href="#">Педиатр</a>
+           <a class="list_22" href="#">Уролог / хирург</a>
+           <a class="list_23" href="#">Дерматовенеролог</a>
+           <a class="list_24" href="#">Челюстно-лицевой хирург</a>
+           <a class="list_25" href="#">Ортопед</a> 
+          </nav>
+          <div class="button_4">
+            <a class="button_41" href="#">Все процедуры  <img src="img/line2.png" alt="line"> </a>
+            <a class="button_42" href="#"> <svg  width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M13.35 7.16475C13.5603 6.94508 13.9012 6.94508 14.1115 7.16475L17.3423 10.5398C17.5526 10.7594 17.5526 11.1156 17.3423 11.3352L14.1115 14.7102C13.9012 14.9299 13.5603 14.9299 13.35 14.7102C13.1397 14.4906 13.1397 14.1344 13.35 13.9148L15.6616 11.5H4.03846C3.74108 11.5 3.5 11.2482 3.5 10.9375C3.5 10.6268 3.74108 10.375 4.03846 10.375H15.6616L13.35 7.96025C13.1397 7.74058 13.1397 7.38442 13.35 7.16475Z" fill="#E50046"/>   </svg>  
+            </a>
+          </div></div> 
+  </div>
+
+  <hr class="line_2">
+  <div class="heads_2"> <!-- НАШИ СПЕЦИАЛИСТЫ-->
+    <h2 class="sdsda">Наши специалисты</h2>   
+    <a href="#" class="sdfd">
+       <img class="but_8" src= "img/background.png" alt = "up">
+       <p class="but_6">Все специалисты</p>
+       <svg class="but_7" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+         <path fill-rule="evenodd" clip-rule="evenodd" d="M12.1836 6.13841C12.5556 5.73161 13.1586 5.73161 13.5305 6.13841L16.3876 9.26341C16.7596 9.67021 16.7596 10.3298 16.3876 10.7365L13.5305 13.8615C13.1586 14.2683 12.5556 14.2683 12.1836 13.8615C11.8117 13.4548 11.8117 12.7952 12.1836 12.3884L13.415 11.0416H4.28563C3.75965 11.0416 3.33325 10.5753 3.33325 9.99998C3.33325 9.42468 3.75965 8.95831 4.28563 8.95831H13.415L12.1836 7.61155C11.8117 7.20475 11.8117 6.54521 12.1836 6.13841Z" fill="white"/>
+         </svg> 
+    </a> 
+  </div> 
+  <svg class="but_9" width="262" height="11" viewBox="0 0 262 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M262 2.9647C262.019 4.62144 260.692 5.9803 259.035 5.9998C250.787 6.09687 238.225 6.76145 223.066 7.56337C217.787 7.84266 212.193 8.13861 206.356 8.43304C183.825 9.56966 157.801 10.676 132.752 10.676C121.544 10.676 110.882 10.3766 99.6905 10.0623C74.3741 9.35143 46.3493 8.56447 3.1687 10.9953C1.51446 11.0884 0.0979498 9.82285 0.0048268 8.16862C-0.0882962 6.51438 1.17724 5.09787 2.83147 5.00475C46.2662 2.55965 74.7119 3.35678 100.123 4.06887C111.247 4.38059 121.789 4.67602 132.752 4.67602C157.644 4.67602 183.545 3.57616 206.054 2.44066C211.813 2.15011 217.359 1.85672 222.611 1.57883C237.826 0.773783 250.583 0.0988597 258.965 0.000212102C260.622 -0.0192858 261.98 1.30796 262 2.9647Z" fill="#0075FF"/>   
+   </svg> 
+   
+  <div class="specialists"> <!--НАШИ СПЕЦИАЛИСТЫ-->
+    <div class="utem_1"> <!--Ирина Голованова-->
+         <img class="utem_12" src="img/doctors.png" alt="irina">
+            <p class="lost_11">Ирина Голованова</p>
+            <p class="lost_12">Главный врач, стаж 24 года</p>
+            <p class="lost_13">Принимает с 9:00 до 14:00</p>
+            <p class="lost_14">Понедельник, вторник и пятница </p>
+          <div class="button_f2">
+            <a class="button_f3" href="#">Узнать подробнее  
+              <svg width="127" height="1" viewBox="0 0 127 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <line y1="0.5" x2="127" y2="0.5" stroke="#E50046" stroke-opacity="0.24" stroke-dasharray="1 1"/>
+              </svg>        </a>
+            <a class="button_f4" href="#"> <svg  width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M13.35 7.16475C13.5603 6.94508 13.9012 6.94508 14.1115 7.16475L17.3423 10.5398C17.5526 10.7594 17.5526 11.1156 17.3423 11.3352L14.1115 14.7102C13.9012 14.9299 13.5603 14.9299 13.35 14.7102C13.1397 14.4906 13.1397 14.1344 13.35 13.9148L15.6616 11.5H4.03846C3.74108 11.5 3.5 11.2482 3.5 10.9375C3.5 10.6268 3.74108 10.375 4.03846 10.375H15.6616L13.35 7.96025C13.1397 7.74058 13.1397 7.38442 13.35 7.16475Z" fill="#E50046"/>   </svg></a> 
+          </div>
+    </div>
+    <div class="utem_2"> <!--Иса Гамидов-->
+         <img class="utem_12" src="img/doctors-b.png" alt="isa">
+            <p class="lost_11">Иса Гамидов</p>
+            <p class="lost_12">ЛОР, стаж 8 лет</p>
+            <p class="lost_13">Принимает с 10:00 до 16:00</p>
+            <p class="lost_14">Среда, четверг и пятница </p>
+          <div class="button_f2">
+           <a class="button_f3" href="#">Узнать подробнее  
+              <svg width="127" height="1" viewBox="0 0 127 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <line y1="0.5" x2="127" y2="0.5" stroke="#E50046" stroke-opacity="0.24" stroke-dasharray="1 1"/>
+              </svg>        </a>
+             <a class="button_f4" href="#"> <svg  width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M13.35 7.16475C13.5603 6.94508 13.9012 6.94508 14.1115 7.16475L17.3423 10.5398C17.5526 10.7594 17.5526 11.1156 17.3423 11.3352L14.1115 14.7102C13.9012 14.9299 13.5603 14.9299 13.35 14.7102C13.1397 14.4906 13.1397 14.1344 13.35 13.9148L15.6616 11.5H4.03846C3.74108 11.5 3.5 11.2482 3.5 10.9375C3.5 10.6268 3.74108 10.375 4.03846 10.375H15.6616L13.35 7.96025C13.1397 7.74058 13.1397 7.38442 13.35 7.16475Z" fill="#E50046"/>   </svg>  </a> </div>
+    </div>        
+    <div class="utem_3"> <!--Лиза Гаджиева-->
+         <img class="utem_12" src="img/doctors-c.png" alt="liza">
+            <p class="lost_11">Лиза Гаджиева</p>
+            <p class="lost_12">Дерматовенеролог, стаж 6 лет</p>
+            <p class="lost_13">Принимает с 9:00 до 17:00</p>
+            <p class="lost_14">Понедельник, вторник и четверг </p>
+          <div class="button_f2">
+           <a class="button_f3" href="#">Узнать подробнее  
+              <svg width="127" height="1" viewBox="0 0 127 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <line y1="0.5" x2="127" y2="0.5" stroke="#E50046" stroke-opacity="0.24" stroke-dasharray="1 1"/>
+              </svg>        </a>
+             <a class="button_f4" href="#"> <svg  width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M13.35 7.16475C13.5603 6.94508 13.9012 6.94508 14.1115 7.16475L17.3423 10.5398C17.5526 10.7594 17.5526 11.1156 17.3423 11.3352L14.1115 14.7102C13.9012 14.9299 13.5603 14.9299 13.35 14.7102C13.1397 14.4906 13.1397 14.1344 13.35 13.9148L15.6616 11.5H4.03846C3.74108 11.5 3.5 11.2482 3.5 10.9375C3.5 10.6268 3.74108 10.375 4.03846 10.375H15.6616L13.35 7.96025C13.1397 7.74058 13.1397 7.38442 13.35 7.16475Z" fill="#E50046"/>   </svg>  </a> </div>  
+    </div>        
+    <div class="utem_4"> <!--Ким Вашингтон-->
+        <img class="utem_12" src="img/doctors-d.png" alt="kim">
+        <p class="lost_11">Ким Вашингтон</p>
+        <p class="lost_12">Хирург, стаж 6 лет</p>
+        <p class="lost_13">Принимает с 9:00 до 14:00</p>
+        <p class="lost_14">Понедельник, вторник и пятница </p>
+        <div class="button_f2">
+           <a class="button_f3" href="#">Узнать подробнее  
+              <svg width="127" height="1" viewBox="0 0 127 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <line y1="0.5" x2="127" y2="0.5" stroke="#E50046" stroke-opacity="0.24" stroke-dasharray="1 1"/>
+              </svg>  </a>
+             <a class="button_f4" href="#"> <svg  width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M13.35 7.16475C13.5603 6.94508 13.9012 6.94508 14.1115 7.16475L17.3423 10.5398C17.5526 10.7594 17.5526 11.1156 17.3423 11.3352L14.1115 14.7102C13.9012 14.9299 13.5603 14.9299 13.35 14.7102C13.1397 14.4906 13.1397 14.1344 13.35 13.9148L15.6616 11.5H4.03846C3.74108 11.5 3.5 11.2482 3.5 10.9375C3.5 10.6268 3.74108 10.375 4.03846 10.375H15.6616L13.35 7.96025C13.1397 7.74058 13.1397 7.38442 13.35 7.16475Z" fill="#E50046"/>   </svg>  </a> 
+        </div>
+    </div> 
+    <div class="utem_5"> <!--Марина Джабраилова-->
+        <img class="utem_12" src="img/doctors-a.png" alt="marina">
+        <p class="lost_11">Марина Джабраилова</p>
+        <p class="lost_12">Невролог, стаж 8 лет</p>
+        <p class="lost_13">Принимает с 10:00 до 16:00</p>
+        <p class="lost_14">Среда, четверг и пятница </p>
+        <div class="button_f2">
+           <a class="button_f3" href="#">Узнать подробнее  
+              <svg width="127" height="1" viewBox="0 0 127 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <line y1="0.5" x2="127" y2="0.5" stroke="#E50046" stroke-opacity="0.24" stroke-dasharray="1 1"/>
+              </svg>  </a>
+             <a class="button_f4" href="#"> <svg  width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M13.35 7.16475C13.5603 6.94508 13.9012 6.94508 14.1115 7.16475L17.3423 10.5398C17.5526 10.7594 17.5526 11.1156 17.3423 11.3352L14.1115 14.7102C13.9012 14.9299 13.5603 14.9299 13.35 14.7102C13.1397 14.4906 13.1397 14.1344 13.35 13.9148L15.6616 11.5H4.03846C3.74108 11.5 3.5 11.2482 3.5 10.9375C3.5 10.6268 3.74108 10.375 4.03846 10.375H15.6616L13.35 7.96025C13.1397 7.74058 13.1397 7.38442 13.35 7.16475Z" fill="#E50046"/>   </svg>  </a> 
+        </div>
+    </div>
+    <div class="utem_6"> <!--Саид Разиев-->
+        <img class="utem_12" src="img/doctors-f.png" alt="said">
+        <p class="lost_11">Саид Разиев</p>
+        <p class="lost_12">Психотерапевт, стаж 10 лет</p>
+        <p class="lost_13">Принимает с 10:00 до 14:00</p>
+        <p class="lost_14">Понедельник и пятница </p>
+        <div class="button_f2">
+           <a class="button_f3" href="#">Узнать подробнее  
+              <svg width="127" height="1" viewBox="0 0 127 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <line y1="0.5" x2="127" y2="0.5" stroke="#E50046" stroke-opacity="0.24" stroke-dasharray="1 1"/>
+              </svg>  </a>
+             <a class="button_f4" href="#"> <svg  width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M13.35 7.16475C13.5603 6.94508 13.9012 6.94508 14.1115 7.16475L17.3423 10.5398C17.5526 10.7594 17.5526 11.1156 17.3423 11.3352L14.1115 14.7102C13.9012 14.9299 13.5603 14.9299 13.35 14.7102C13.1397 14.4906 13.1397 14.1344 13.35 13.9148L15.6616 11.5H4.03846C3.74108 11.5 3.5 11.2482 3.5 10.9375C3.5 10.6268 3.74108 10.375 4.03846 10.375H15.6616L13.35 7.96025C13.1397 7.74058 13.1397 7.38442 13.35 7.16475Z" fill="#E50046"/>   </svg>  </a> 
+        </div>
+    </div>           
+  </div>
+  <hr class="line_3">
+  <div class="heads_3">   <!-- НАШИ ОТЗЫВЫ-->
+    <h2 class="sdsda">Наши отзывы</h2> 
+    <a class="back" href="#"> <img src="img/buttonz.png" alt="buttonjjj">  </a>
+    <a class="backs" href="#"> <img src="img/buttonf.png" alt="buttonjjj">  </a>
+    <a href="#" class="sdfd">
+       <img class="byt_8" src= "img/bukip.png" alt = "up">
+        <p class="byt_6">Все отзывы</p>
+          <svg class="byt_7" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M12.1836 6.13841C12.5556 5.73161 13.1586 5.73161 13.5305 6.13841L16.3876 9.26341C16.7596 9.67021 16.7596 10.3298 16.3876 10.7365L13.5305 13.8615C13.1586 14.2683 12.5556 14.2683 12.1836 13.8615C11.8117 13.4548 11.8117 12.7952 12.1836 12.3884L13.415 11.0416H4.28563C3.75965 11.0416 3.33325 10.5753 3.33325 9.99998C3.33325 9.42468 3.75965 8.95831 4.28563 8.95831H13.415L12.1836 7.61155C11.8117 7.20475 11.8117 6.54521 12.1836 6.13841Z" fill="white"/>
+         </svg> 
+    </a> 
+  </div> 
+  <img class="under4" src="img/underline.png" alt="">
+  <div id="wrapper">
+
+        <div id="jsCarousel">
+            <div class="blok__item1">
+              <img class="blok__button6" src="img/back4.png" alt="">
+              <div class="blok__user">
+                <img class="blok__1" src= "img/avatar-1.png" alt = "">
+                <div class="blok__entry">
+                  <p class="blok__2">Диана Магомедова</p>
+                  <p class="blok__3">24 августа 2019</p>
+                </div></div>  
+              <a href="#" class="blok__batton">
+                <svg class="blok__batton1" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                 <g clip-path="url(#clip0)">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M0.233497 4.10994C0.335219 2.14073 1.93785 0 4.2094 0C7.774 0.136998 9.22534 0.321072 11.887 0.273996C14.1585 0.273996 15.7258 1.70308 15.7258 3.97294L16 11.7818C16 14.0517 14.4922 15.7528 12.1612 15.8918C9.73981 16.0361 6.04754 16.0361 4.64096 15.8918C2.03537 15.6244 0.259924 13.4506 0.0963974 11.7818C-0.130511 9.46626 0.0963976 6.76401 0.233497 4.10994ZM11.6128 8.08287C11.6128 10.8228 10.6617 11.5002 8.46815 11.5002C6.13745 11.5002 4.2094 10.1554 4.2094 7.78746C4.2094 5.41953 5.66822 4.38393 7.6369 4.38393C10.3789 4.38393 11.6128 6.11567 11.6128 8.08287ZM12.5725 4.65793C13.3951 4.65793 13.5322 4.16724 13.5322 3.56194C13.5322 2.95665 13.1782 2.46596 12.5725 2.46596C11.9668 2.46596 11.3386 2.73996 11.3386 3.56194C11.3386 4.16724 11.7499 4.65793 12.5725 4.65793Z" fill="#E50046"/>  </g>
+                        <defs>
+                        <clipPath id="clip0">
+                        <rect width="16" height="16" fill="white"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+                <p class="blok__button2">В инстаграме</p> 
+                <img class="blok__button3" src="img/line2.png" alt="">
+              </a>  
+                <p class="blok__button4"> Попала к Написат на «ура», никто не рекомендовал и не советовал. Чистая случайность, но после посещения осталась очень довольна. И до беременности и во время к ней ходила и хожу. Объясняет и рассказывает все очень тактично, аккуратно и понятно. Уже спустя время узнала, что она одна из лучших в городе. Она ни разу не</p>
+                <a href="#"> <svg class="blok__button5" width="29" height="15" viewBox="0 0 29 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect opacity="0.08" width="29" height="15" rx="7.5" fill="#E50046"/>
+                  <circle cx="7.5" cy="7.5" r="1.5" fill="#E50046"/>
+                  <circle cx="14.5" cy="7.5" r="1.5" fill="#E50046"/>
+                  <circle cx="21.5" cy="7.5" r="1.5" fill="#E50046"/>
+                </svg></a>
+            
+            </div>
+            <div class="blok__item2">
+              <img class="blok__button6" src="img/back4.png" alt="">
+              <div class="blok__user">
+                <img class="blok__1" src= "img/avatar-2.png" alt = "">
+                <div class="blok__entry">
+                  <p class="blok__2">Сабина Алиева</p>
+                  <p class="blok__3">20 августа 2019</p>
+                </div></div>  
+              <a href="#" class="blok__batton">
+                <svg class="blok__batton1" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                 <g clip-path="url(#clip0)">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M0.233497 4.10994C0.335219 2.14073 1.93785 0 4.2094 0C7.774 0.136998 9.22534 0.321072 11.887 0.273996C14.1585 0.273996 15.7258 1.70308 15.7258 3.97294L16 11.7818C16 14.0517 14.4922 15.7528 12.1612 15.8918C9.73981 16.0361 6.04754 16.0361 4.64096 15.8918C2.03537 15.6244 0.259924 13.4506 0.0963974 11.7818C-0.130511 9.46626 0.0963976 6.76401 0.233497 4.10994ZM11.6128 8.08287C11.6128 10.8228 10.6617 11.5002 8.46815 11.5002C6.13745 11.5002 4.2094 10.1554 4.2094 7.78746C4.2094 5.41953 5.66822 4.38393 7.6369 4.38393C10.3789 4.38393 11.6128 6.11567 11.6128 8.08287ZM12.5725 4.65793C13.3951 4.65793 13.5322 4.16724 13.5322 3.56194C13.5322 2.95665 13.1782 2.46596 12.5725 2.46596C11.9668 2.46596 11.3386 2.73996 11.3386 3.56194C11.3386 4.16724 11.7499 4.65793 12.5725 4.65793Z" fill="#E50046"/>  </g>
+                        <defs>
+                        <clipPath id="clip0">
+                        <rect width="16" height="16" fill="white"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+                <p class="blok__button2">В инстаграме</p> 
+                <img class="blok__button3" src="img/line2.png" alt="">
+              </a>  
+                <p class="blok__button4"> Нателла Набиевна - это профессионал высокого уровня, прекрасный человек и хирург с золотыми руками, дающий надежду там, где уже почти её не остаётся. Спасибо Вам огромное! Здоровья Вам и радости в жизни!</p>   
+            </div>
+            <div class="blok__item3">
+              <img class="blok__button6" src="img/back4.png" alt="">
+              <div class="blok__user">
+                <img class="blok__1" src= "img/avatar-3.png" alt = "">
+                <div class="blok__entry">
+                  <p class="blok__2">Светлана Захарова</p>
+                  <p class="blok__3">17 августа 2019</p>
+                </div></div>  
+              <a href="#" class="blok__batton">
+                <svg class="blok__batton1" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                 <g clip-path="url(#clip0)">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M0.233497 4.10994C0.335219 2.14073 1.93785 0 4.2094 0C7.774 0.136998 9.22534 0.321072 11.887 0.273996C14.1585 0.273996 15.7258 1.70308 15.7258 3.97294L16 11.7818C16 14.0517 14.4922 15.7528 12.1612 15.8918C9.73981 16.0361 6.04754 16.0361 4.64096 15.8918C2.03537 15.6244 0.259924 13.4506 0.0963974 11.7818C-0.130511 9.46626 0.0963976 6.76401 0.233497 4.10994ZM11.6128 8.08287C11.6128 10.8228 10.6617 11.5002 8.46815 11.5002C6.13745 11.5002 4.2094 10.1554 4.2094 7.78746C4.2094 5.41953 5.66822 4.38393 7.6369 4.38393C10.3789 4.38393 11.6128 6.11567 11.6128 8.08287ZM12.5725 4.65793C13.3951 4.65793 13.5322 4.16724 13.5322 3.56194C13.5322 2.95665 13.1782 2.46596 12.5725 2.46596C11.9668 2.46596 11.3386 2.73996 11.3386 3.56194C11.3386 4.16724 11.7499 4.65793 12.5725 4.65793Z" fill="#E50046"/>  </g>
+                        <defs>
+                        <clipPath id="clip0">
+                        <rect width="16" height="16" fill="white"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+                <p class="blok__button2">В инстаграме</p> 
+                <img class="blok__button3" src="img/line2.png" alt="">
+              </a>  
+                <p class="blok__button4"> Прекрасный узист! Осталась очень довольна! Сейчас, уже на второго ребёнка, тоже иду к ней! Очень приятная на общение, внимательная, рассматривает каждый пальчик ребёнка, все доходчиво объясняет на понятном пациентам языке. В общем, очень советую, и огромная очередь того стоит!</p>   
+            </div>  
+        </div>
+    <svg class="imagec4" width="1920" height="164" viewBox="0 0 1920 164" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1920" height="164">
+          <rect width="1920" height="164" fill="#C4C4C4"/>
+          </mask>
+          <g mask="url(#mask0)">
+          <circle cx="960" cy="15000" r="15000" fill="#FFFBFC"/>
+          </g>
+          </svg>
+      <div class="footer">
+          <div class="logo2">
+              <img class="spit" src="img/kid.png" alt="key">
+              <img  class="sput" src="img/ney.png" alt="ney">
+              <img  class="spof" src="img/hh.png" alt="т">
+              <img  class="ddd" src="img/dd.png" alt="д">
+              <img  class="eee" src="img/ee.png" alt="е">
+              <img  class="ttt" src="img/tt.png" alt="т">
+              <img  class="scs" src="img/cc.png" alt="с">
+              <img  class="kkk" src="img/kk.png" alt="к">
+              <img  class="ask" src="img/aa.png" alt="a">
+              <img  class="zer" src="img/zz.png" alt="я">
+                
+              <img  class="kli" src="img/kk.png" alt="к">
+              <img  class="lin" src="img/ll.png" alt="л">
+              <img  class="ini" src="img/ii.png" alt="и">
+              <img  class="nik" src="img/nn.png" alt="н">
+              <img  class="ika" src="img/ii.png" alt="и">
+              <img  class="kaa" src="img/kk.png" alt="к">
+              <img  class="akl" src="img/aa.png" alt="a">
+          </div> 
+        <a href="#" class="footer__batton">
+                <svg class="blok__batton1" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                 <g clip-path="url(#clip0)">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M0.233497 4.10994C0.335219 2.14073 1.93785 0 4.2094 0C7.774 0.136998 9.22534 0.321072 11.887 0.273996C14.1585 0.273996 15.7258 1.70308 15.7258 3.97294L16 11.7818C16 14.0517 14.4922 15.7528 12.1612 15.8918C9.73981 16.0361 6.04754 16.0361 4.64096 15.8918C2.03537 15.6244 0.259924 13.4506 0.0963974 11.7818C-0.130511 9.46626 0.0963976 6.76401 0.233497 4.10994ZM11.6128 8.08287C11.6128 10.8228 10.6617 11.5002 8.46815 11.5002C6.13745 11.5002 4.2094 10.1554 4.2094 7.78746C4.2094 5.41953 5.66822 4.38393 7.6369 4.38393C10.3789 4.38393 11.6128 6.11567 11.6128 8.08287ZM12.5725 4.65793C13.3951 4.65793 13.5322 4.16724 13.5322 3.56194C13.5322 2.95665 13.1782 2.46596 12.5725 2.46596C11.9668 2.46596 11.3386 2.73996 11.3386 3.56194C11.3386 4.16724 11.7499 4.65793 12.5725 4.65793Z" fill="#E50046"/>  </g>
+                        <defs>
+                        <clipPath id="clip0">
+                        <rect width="16" height="16" fill="white"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+           <p class="blok__button2">Наш инстаграм</p> 
+           <img class="blok__button3" src="img/line2.png" alt="">
+      </a>
+        <p class="flooter__text">Детская клиника «Kidney» © 2019</p>    
+      </div>
+         
+    <svg class="imagec1" width="387" height="749" viewBox="0 0 387 749" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.312394 502.141C5.37799 600.505 99.8918 641.917 144.463 658.717C220.309 687.305 300.68 681.183 371.712 722.312C482.083 786.221 537.968 716.915 599.138 704.27C660.307 691.625 716.377 721.609 791.052 705.857C865.726 690.105 908.605 620.524 897.166 549.29C889.405 500.957 823.319 426.718 844.362 344.338C864.307 266.262 809.066 181.532 737.133 162.599C674.396 146.087 668.609 28.0543 589.5 5.50848C509.091 -17.4079 450.202 37.2227 362.814 58.7505C281.523 78.7764 233.867 52.4397 159.804 112.304C85.0417 172.734 125.548 263.549 91.3534 319.101C63.2776 364.713 -5.18305 395.431 0.312394 502.141Z" fill="#FFFEF0"/> </svg>
+        
+    <svg class="imagec2" width="432" height="713" viewBox="0 0 432 713" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M253.999 442.117C261.157 441.403 265.889 447.244 268.24 453.903C284.267 499.292 280.163 564.511 309.706 701.234C311.131 707.83 317.484 713.017 324.15 713C363.885 712.9 410.388 709.677 452.67 700.182C459.355 698.681 465.057 693.034 464.349 685.811C426.633 545.676 415.835 491.102 409.839 429.876C409.127 422.606 414.361 416.219 421.518 415.505C505.089 420.376 599.817 403.983 670.245 388.498C677.585 386.884 682.691 381.957 681.924 374.127L680.863 263.081C680.156 255.858 673.78 250.581 666.623 251.295L410.989 274.589C403.832 275.303 397.456 270.026 396.749 262.803C385.194 218.701 403.706 96.9722 387.479 12.2605C386.772 5.03746 380.007 1.09093 373.238 0.474602C347.291 -1.88789 286.804 5.01987 265.238 11.2458C258.775 13.1117 254.978 17.5026 253.559 25.6168C245.171 73.5893 241.014 210.142 255.353 288.915C256.061 296.138 250.832 302.572 243.674 303.286C157.836 306.44 86.5057 313.554 11.6909 334.222C5.88677 335.825 0.101345 341.923 0.0117826 348.593C-0.251808 368.223 3.88464 413.705 14.6979 442.873C16.7997 448.542 24.22 455.129 32.1787 454.335L253.999 442.117Z" fill="#F8FBFF"/> </svg>
+        
+    <svg class="imagec3" width="274" height="861" viewBox="0 0 274 861" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M7.28781 98.6124C3.5918 86.9466 10.0871 74.5004 21.7956 70.8129C53.853 60.7168 92.9496 65.3029 129.582 76.3376C150.029 48.9615 171.435 25.3278 193.269 6.4897C204.41 -3.12232 221.257 -1.91799 230.899 9.17967C240.541 20.2773 239.326 37.0658 228.185 46.6779C212.45 60.2546 196.679 77.0587 181.226 96.5595C217.666 114.158 250.845 137.551 269.335 161.3C276.859 170.965 275.094 184.881 265.392 192.383C255.69 199.885 241.725 198.131 234.201 188.466C220.337 170.659 190.475 149.314 154.726 133.106C128.433 172.543 103.744 219.351 82.5607 270.654C119.145 281.525 153.191 297.844 174.392 316.816C183.523 324.987 184.278 338.999 176.078 348.112C167.878 357.225 153.828 357.989 144.697 349.818C129.357 336.09 100.401 321.839 66.552 312.172C56.6777 339.675 47.8636 368.166 40.3685 397.254C35.7573 415.15 31.6746 433.157 28.1646 451.187C69.9322 457.642 110.654 471.254 136.114 489.7C146.039 496.891 148.238 510.753 141.025 520.662C133.812 530.571 119.919 532.775 109.994 525.584C92.1146 512.631 58.6001 500.687 20.7974 494.917C12.9584 550.169 10.8478 604.951 15.7455 656.675C54.5518 654.099 93.0351 657.72 119.953 668.493C131.338 673.049 136.871 685.96 132.312 697.33C127.753 708.699 114.827 714.222 103.442 709.666C85.1752 702.355 55.063 698.85 21.7874 700.74C29.7594 744.504 43.4439 785.321 63.713 821.427C70.9048 834.238 66.3105 850.437 53.4515 857.608C40.5924 864.779 24.3379 860.208 17.1461 847.397C-6.63414 805.036 -22.2414 757.918 -31.0912 708.219C-64.2574 715.931 -91.6895 728.753 -106.322 744.915C-114.546 753.999 -128.588 754.703 -137.686 746.486C-146.783 738.27 -147.491 724.245 -139.266 715.161C-115.45 688.854 -76.5419 672.749 -37.147 664.111C-42.682 607.939 -40.5262 549.408 -32.5691 491.425C-61.3937 492.262 -86.2104 497.979 -102.113 508.578C-112.319 515.381 -126.113 512.643 -132.923 502.463C-139.732 492.283 -136.979 478.517 -126.773 471.714C-99.6938 453.665 -62.4178 447.017 -25.3365 446.984C-21.352 425.781 -16.6449 404.755 -11.3098 384.05C-4.13359 356.2 4.24454 328.676 13.6478 301.827C-18.1015 298.571 -46.2385 301.445 -64.5595 311.092C-75.4159 316.809 -88.8564 312.669 -94.5796 301.846C-100.303 291.023 -96.1417 277.615 -85.2853 271.898C-53.4765 255.149 -10.7312 253.508 29.6918 259.124C50.7943 206.606 75.6856 157.607 102.913 114.998C76.5116 108.623 52.5717 107.581 35.1802 113.058C23.4717 116.746 10.9839 110.278 7.28781 98.6124Z" fill="#FFFBF8"/>
+</svg>
+
+    </div>
+  </div>
+</body>
